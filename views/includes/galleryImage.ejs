@@ -1,0 +1,19 @@
+<div class="card-deck">
+    <% for (let image of images) { %>
+      <div class = "card gallery">
+         <img src="<%= image.imageUrl%>" class="card-img-top myImg1 logo rounded"  onclick="myFunction(this);" alt="...">
+         <div class="card-body">
+             <!--<a href="/racing/aston/<%= image._id%>" class="btn btn-primary">Add to Gallery</a>
+             -->
+             <% if(isAuthenticated) {%>
+            <form action="/gallery" method="POST">
+               <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+                <button class="btn btn-outline-primary" type="submit">Add to Gallery</button>
+                <input type="hidden" name="imageId" value="<%= image._id %>">
+            </form>
+            <%}%>
+            
+          </div>
+     </div>
+      <% }%>
+    </div>

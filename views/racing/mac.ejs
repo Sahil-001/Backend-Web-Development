@@ -1,0 +1,181 @@
+<%- include('../includes/head.ejs')%>
+<link rel="stylesheet" href="/css/mac.css">
+
+
+
+	 </head>
+	 <body>
+    <%- include('../includes/navigation.ejs')%>
+<div class="parallax">
+   <div>
+          
+     </div>
+</div>
+<ul class="nav nav-pills" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Gallery</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Models</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Company Details</a>
+  </li>
+</ul>
+<div class="tab-content container" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+   <div class="container-fluid" id="upcoming">
+     <p class="display-3 text-center" style="color: gray" >Gallery<p>
+  </div>
+  <div class="container-fluid">
+    <%- include('../includes/galleryImage.ejs',{images: images})%>
+    </div>
+  </div>
+  
+  <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+    <div class="container-fluid" id="upcoming">
+     <p class="display-3 text-center" style="color: gray" >Models<p>
+  </div>
+    <div class="card-deck">
+ 
+  <div class="card">
+   <img src="/racing/mac/mod1.png" class="card-img-top myImg1 logo" onclick="myFunction(this);">
+    <div class="card-body">
+      <h5 class="card-title">McLaren 540C</h5>
+     
+    </div>
+  </div>
+ 
+  
+  <div class="card">
+   <img src="/racing/mac/mod2.png" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">McLaren 570 S Coupe</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/mac/mod3.png" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">McLaren 570 GT</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/mac/mod4.png" class="card-img-top myImg1  logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">McLaren 600 LT</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/mac/mod5.png" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">McLaren GT</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/mac/mod6.png" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">McLaren 720S</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/mac/mod8.png" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">McLaren Senna</h5>
+      
+    </div>
+  </div>
+  <div class="/racing/card">
+   <img src="/racing/mac/mod9.png" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">McLaren speedtail</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/mac/mod10.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">McLaren Elva</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/mac/mod11.jpg" class="card-img-top myImg1 logo " onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">McLaren Senna GTR</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/mac/mod12.jpg" class="card-img-top myImg1 logo " onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">McLaren 620R</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/mac/mod13.png" class="card-img-top myImg1 logo " onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">McLaren 12C Spyder</h5>
+      
+    </div>
+  </div>
+  
+  
+  
+  
+      
+
+  
+</div>
+  
+    
+ </div>
+ 
+ <div class="tab-pane fade show" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+   <div class="container-fluid" id="upcoming">
+     <p class="display-3 text-center" style="color: gray" >McLaren Automotive<p>
+  </div>
+  <div class="container-fluid">
+    <p style="color: gray">McLaren Automotive (formerly known as McLaren Cars) is a British automotive manufacturer based at the McLaren Technology Centre in Woking, Surrey. The main products of the company are supercars, which are produced in-house in designated production facilities. In July 2017, McLaren Automotive became a 100% owned subsidiary of the wider McLaren Group.
+	</p></div>
+	<p class="display-4" style="font-size: 250%; color:gray ">History</p>
+	<div id="container-fluid">
+	<p style=" color: gray">McLaren Automotive replaced McLaren Cars in 2010. McLaren Cars was founded in 1985. The company went on to release the McLaren F1 in 1992. Between 1994 and 2010, McLaren Cars was registered as a 'dormant company', before the founding of McLaren Automotive in 2010. The new company was originally separate from the existing McLaren companies to enable investment in the new venture, but was brought together in July 2017 after Dennis sold his shares in McLaren Automotive and McLaren Technology Group.
+
+McLaren's Formula One founder Bruce McLaren was born in 1937. McLaren learned about cars and engineering at his parent's service station and workshop in his hometown, Auckland, New Zealand. By 15, he had entered a local hillclimb in an Austin 7 Ulster; winning his first race in the car. In 1958, McLaren arrived in the United Kingdom with the ‘Driver to Europe’ scheme, intended to help Australian and New Zealand racers to compete in Europe. His mentor, Jack Brabham introduced him to Cooper Cars, a small team based in Surbiton, Surrey. Auspiciously starting his Formula One career in 1958, McLaren joined the Formula One team a year later. That same year, he won the US Grand Prix at age 22, making him the youngest Grand Prix winner to that date. He stayed with Cooper for a further seven years, winning three more Grands Prix and other races, driving for Jaguar and Aston Martin, & winning the 24 Hours of Le Mans in 1966 with Ford.
+
+McLaren founded Bruce McLaren Motor Racing in 1963. A year later, the company built the first McLaren race car – the M1A; 24 were produced. Its successor, the M1B, allowed McLaren into the Can-Am championship and emerged the dominant victor with 43 victories, almost three times more than rival Porsche. In 1965, the first McLaren Formula One car, the M2B, debuted at the Monaco Grand Prix.
+
+After his victories and time in the F3, McLaren was designing and testing a prototype M6GT-registered OBH 500H, a light sports car with an estimated top speed of 165 mph and zero to 100 mph time of eight seconds. However, McLaren died in a car accident in 1970 before the prototype could be completed. 
+	</p></div>
+      <div class="container-fluid">
+	   <img src="/racing/mac/qua.jpg" class="myImg qua"  onclick="myFunction(this);">
+	  <p class="lead text-center" id="qua" style="color: gray"> Headquarters: Woking, United Kingdom</p>
+	   </div>
+	</div>
+	 
+	</div>
+	</div>
+	 
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+
+
+<%- include('../includes/end2.ejs')%>

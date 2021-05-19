@@ -1,0 +1,191 @@
+<%- include('../includes/head.ejs')%>
+<link rel="stylesheet" href="/css/ferrari.css">
+
+
+	 </head>
+	 <body>
+    <%- include('../includes/navigation.ejs')%>
+<div class="parallax">
+   <div>
+          
+     </div>
+</div>
+<ul class="nav nav-pills" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Gallery</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Models</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Company Details</a>
+  </li>
+</ul>
+<div class="tab-content container" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+   <div class="container-fluid" id="upcoming">
+     <p class="display-3 text-center" style="color: #BABCBE;" >Gallery<p>
+  </div>
+  <div class="container-fluid">
+    <%- include('../includes/galleryImage.ejs',{images: images})%>
+    
+</div> 
+  </div>
+  
+  <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+    <div class="container-fluid" id="upcoming">
+     <p class="display-3 text-center" style="color: #BABCBE;" >Models<p>
+  </div>
+    <div class="card-deck">
+ 
+  <div class="card">
+   <img src="/racing/ferrari/21.png" class="card-img-top myImg1 logo" onclick="myFunction(this);">
+    <div class="card-body">
+      <h5 class="card-title">812 superfast</h5>
+     
+    </div>
+  </div>
+ 
+  <div class="card">
+    <img src="/racing/ferrari/22.png" class="card-img-top myImg1 logo " onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">812 GTS</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/ferrari/33.png" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">MONZA SP2</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/ferrari/24.png" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">SF90 STRADALE</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/ferrari/25.png" class="card-img-top myImg1  logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">F8 TRIBUTO</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/ferrari/26.png" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">F8 SPIDER</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/ferrari/27.png" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">488 PISTA</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/ferrari/28.png" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">488 PISTA SPIDER</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/ferrari/29.png" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">GTC LUSS0</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/ferrari/30.png" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">ROMA</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/ferrari/31.png" class="card-img-top myImg1 logo " onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">PORTFINO</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/ferrari/32.png" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">MONZA AP1</h5>
+      
+    </div>
+  </div>
+  
+      
+
+  
+</div>
+  
+    
+ </div>
+ 
+ <div class="tab-pane fade show" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+   <div class="container-fluid" id="upcoming">
+     <p class="display-3 text-center" style="color: #BABCBE;" >Ferrari<p>
+  </div>
+  <div class="container-fluid">
+    <p style="color: #BABCBE;"> Ferrari is an Italian luxury sports car manufacturer based in Maranello. Founded by Enzo Ferrari in 1939 out of Alfa Romeo's race division as Auto Avio Costruzioni, the company built its first car in 1940. However, the company's inception as an auto manufacturer is usually recognized in 1947, when the first Ferrari-badged car was completed.
+
+In 2014 Ferrari was rated the world's most powerful brand by Brand Finance. In June 2018, the 1964 250 GTO became the most expensive car in history, setting an all-time record selling price of $70 million.
+
+Fiat S.p.A. acquired 50% of Ferrari in 1969 and expanded its stake to 90% in 1988. In October 2014 Fiat Chrysler Automobiles N.V. (FCA) announced its intentions to separate Ferrari S.p.A. from FCA; as of the announcement FCA owned 90% of Ferrari. The separation began in October 2015 with a restructuring that established Ferrari N.V. (a company incorporated in the Netherlands) as the new holding company of the Ferrari group and the subsequent sale by FCA of 10% of the shares in an IPO and concurrent listing of common shares on the New York Stock Exchange. Through the remaining steps of the separation, FCA's interest in Ferrari's business was distributed to shareholders of FCA, with 10% continuing to be owned by Piero Ferrari. The spin-off was completed on 3 January 2016.</p>
+	</div>
+	<p class="display-4" style="font-size: 250%; color: #BABCBE; ">History</p>
+	<div id="container-fluid">
+	<p style=" color: #BABCBE;">Enzo Ferrari was not initially interested in the idea of producing road cars when he formed Scuderia Ferrari in 1929, with headquarters in Modena. Scuderia Ferrari (pronounced [skudeˈriːa]) literally means "Ferrari Stable" and is usually used to mean "Team Ferrari." Ferrari bought,[citation needed] prepared, and fielded Alfa Romeo racing cars for gentleman drivers, functioning as the racing division of Alfa Romeo. In 1933, Alfa Romeo withdrew its in-house racing team and Scuderia Ferrari took over as its works team:[1] the Scuderia received Alfa's Grand Prix cars of the latest specifications and fielded many famous drivers such as Tazio Nuvolari and Achille Varzi. In 1938, Alfa Romeo brought its racing operation again in-house, forming Alfa Corse in Milan and hired Enzo Ferrari as manager of the new racing department; therefore the Scuderia Ferrari was disbanded.[1]
+
+In September 1939, Ferrari left Alfa Romeo under the provision he would not use the Ferrari name in association with races or racing cars for at least four years.A few days later he founded Auto Avio Costruzioni, headquartered in the facilities of the old Scuderia Ferrari.[1] The new company ostensibly produced machine tools and aircraft accessories. In 1940, Ferrari produced a race car – the Tipo 815, based on a Fiat platform. It was the first Ferrari car and debuted at the 1940 Mille Miglia, but due to World War II it saw little competition. In 1943, the Ferrari factory moved to Maranello, where it has remained ever since. The factory was bombed by the Allies and subsequently rebuilt including works for road car production.
+
+
+125 S replica
+
+166 MM Touring Barchetta
+
+The first series produced Ferrari, the 1958 250 GT Coupé
+The first Ferrari-badged car was the 1947 125 S, powered by a 1.5 L V12 engine; Enzo Ferrari reluctantly built and sold his automobiles to fund Scuderia Ferrari.
+
+The Scuderia Ferrari name was resurrected to denote the factory racing cars and distinguish them from those fielded by customer teams.
+
+In 1960 the company was restructured as a public corporation under the name SEFAC S.p.A. (Società Esercizio Fabbriche Automobili e Corse).
+
+Early in 1969, Fiat took a 50% stake in Ferrari. An immediate result was an increase in available investment funds, and work started at once on a factory extension intended to transfer production from Fiat's Turin plant of the Ferrari engined Fiat Dino. New model investment further up in the Ferrari range also received a boost.</p>
+	</div>
+      <div class="container-fluid">
+	   <img src="/racing/ferrari/qua.jpg" class="myImg qua"  onclick="myFunction(this);">
+	  <p class="lead text-center" id="qua" style="color: #BABCBE;"> Headquarters: Abu Dhabi</p>
+	   </div>
+	</div>
+	 
+	</div>
+	</div>
+	 
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+
+
+<%- include('../includes/end2.ejs')%>

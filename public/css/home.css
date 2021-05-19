@@ -1,0 +1,97 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    background: black;
+    }
+    
+.parallax {
+
+    background-image: url('/lambo.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+     background-repeat: no-repeat;
+      background-size: cover;
+        }
+ 
+   .clear_float{
+                  clear: both;
+                  margin: 0px;
+                  }
+    #electric{
+               background-image: url("/tesla2.jpg");
+               background-size: cover;
+               background-position: center;
+             }
+    .jumbotron {
+                  display: block;
+                   }
+   .collapse{
+               color: white;
+               }
+   #electric:hover{
+                     opacity: 0.5;
+                     }
+   
+   #Self:hover{
+                     opacity: 0.5;
+                     }
+   #sports:hover{
+                     opacity: 0.5;
+                     }				  
+   #sports{
+               background-image: url("/bugatti.jpg");
+               background-size: cover;
+               background-position: center;
+           
+             }
+   #Self{
+               background-image: url("/audi2.jpeg");
+               background-size: cover;
+               background-position: center;
+               
+             }
+                 
+       a{
+           font-size: 100%;
+           color: white;
+                
+                }
+       #detail
+                {
+                   width: 100%;
+                   height:40%;
+                   background-color:#414347;
+                   color: white;
+                }
+       #contact{
+                  text-align: right;
+                  padding-top: 10px;
+                  
+                  }
+       #logo{   margin:0 auto;
+               float: left;
+               
+                 
+                 }
+       a:link {
+         text-decoration: none;
+                        }
+       
+        #in{  width: 200px;
+              border-radius: 5px;
+              border: 0px;
+              padding-left: 5px;
+              margin-left: 10px;
+              }
+       #but{
+               border-radius: 5px;
+               background-color: blue;
+               border: 0px;
+               color: white;
+               }
+        
+      
+
+            
+           

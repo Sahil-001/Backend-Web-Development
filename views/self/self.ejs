@@ -1,0 +1,136 @@
+<%- include('../includes/head.ejs')%>
+<link rel="stylesheet" href = "/css/self.css">
+
+
+	 </head>
+	 <body>
+    <%- include('../includes/navigation.ejs')%>
+
+  <div class="container-fluid video ">
+    <iframe title="vimeo-player" src="https://player.vimeo.com/video/192179726?autoplay=1&loop=1&muted=1" onloadeddata="this.play();this.autoplay=true;" width="100%" height="70%" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+
+	</div>
+
+
+<div class="row">
+  <div class="col-3">
+    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Introduction</a>
+      <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Levels Of Automation </a>
+      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Machine Learning</a>
+      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Gallery</a>
+    </div>
+  </div>
+  <div class="col-9">
+    <div class="tab-content" id="v-pills-tabContent">
+      
+	  <div class="tab-pane fade show active" id="v-pills-home" style="color: #28C93C" role="tabpanel" aria-labelledby="v-pills-home-tab">
+  <h1 class="display-4 text-center" style="color: #28C93C">Self Driving Cars </h1>
+
+	  <p>A self-driving car, also known as an autonomous vehicle (AV), connected and autonomous vehicle (CAV), driverless car, robo-car, or robotic car, is a vehicle that is capable of sensing its environment and moving safely with little or no human input.
+
+Self-driving cars combine a variety of sensors to perceive their surroundings, such as radar, lidar, sonar, GPS, odometry and inertial measurement units. Advanced control systems interpret sensory information to identify appropriate navigation paths, as well as obstacles and relevant signage.
+
+Long-distance trucking is seen as being at the forefront of adopting and implementing the technology.Modern vehicles provide partly automated features such as keeping the car within its lane, speed controls or emergency braking. Nonetheless, differences remain between a fully autonomous self-driving car on one hand and driver assistance technologies on the other hand.One approach is to implement communication networks both in the immediate vicinity (for collision avoidance) and farther away (for congestion management). Such outside influences in the decision process reduce an individual vehicle's autonomy, while still not requiring human intervention.
+	  </p><img src="/self/google.jpg" id="google">
+	  <p class="text-center" style="color:#28C93C"> Self-driving Car by google</p>
+	  </div>
+	 
+      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" >
+	    <div class="display-4 text-center"  style="color:#28C93C">Levels Of Driving Automation</div>
+	 
+	  <p style="color:#28C93C">In  SAE International, an automotive standardization body, automation level definitions, "driving mode" means "a type of driving scenario with characteristic dynamic driving task requirements (e.g., expressway merging, high speed cruising, low speed traffic jam, closed-campus operations, etc.)"</p>
+      <h3 class="lead" style="color:#28C93C">Level 0</h3>
+	   <p style="color:#28C93C"> The automated system issues warnings and may momentarily intervene but has no sustained vehicle control.</p>
+	  <h3 class="lead" style="color:#28C93C">Level 1 ("hands on")</h3>
+	    <p style="color:#28C93C">The driver and the automated system share control of the vehicle. Examples are systems where the driver controls steering and the automated system controls engine power to maintain a set speed (Cruise Control) or engine and brake power to maintain and vary speed (Adaptive Cruise Control or ACC); and Parking Assistance, where steering is automated while speed is under manual control. The driver must be ready to retake full control at any time. Lane Keeping Assistance (LKA) Type II is a further example of Level 1 self-driving. A collision mitigation system which alerts the driver to a crash and permits full braking capacity is also a Level 1 feature, according to Autopilot Review magazine.</p>
+	  <h3 class="lead" style="color:#28C93C">Level 2 ("hands off")</h3>
+	   <p style="color:#28C93C"> The automated system takes full control of the vehicle: accelerating, braking, and steering. The driver must monitor the driving and be prepared to intervene immediately at any time if the automated system fails to respond properly. The shorthand "hands off" is not meant to be taken literally – contact between hand and wheel is often mandatory during SAE 2 driving, to confirm that the driver is ready to intervene. The eyes of the driver might be monitored by cameras to confirm that the driver is keeping his/her attention to traffic.</p>
+	  <h3 class="lead" style="color:#28C93C">Level 3 ("eyes off")</h3>
+	   <p style="color:#28C93C"> The driver can safely turn their attention away from the driving tasks, e.g. the driver can text or watch a movie. The vehicle will handle situations that call for an immediate response, like emergency braking. The driver must still be prepared to intervene within some limited time, specified by the manufacturer, when called upon by the vehicle to do so. You can think of the automated system as a co-driver that will alert you in an orderly fashion when it is your turn to drive. An example would be a Traffic Jam Chauffeur.</p>
+	  <h3 class="lead" style="color:#28C93C">Level 4 ("mind off"):</h3>
+	   <p style="color:#28C93C"> As level 3, but no driver attention is ever required for safety, e.g. the driver may safely go to sleep or leave the driver's seat. Self-driving is supported only in limited spatial areas (geofenced) or under special circumstances. Outside of these areas or circumstances, the vehicle must be able to safely abort the trip, e.g. park the car, if the driver does not retake control. An example would be a robotic taxi or a robotic delivery service that only covers selected locations in a specific area.</p>
+	  <h3 class="lead" style="color:#28C93C">Level 5 ("steering wheel optional")</h3>
+	   <p style="color:#28C93C">No human intervention is required at all. An example would be a robotic taxi that works on all roads all over the world, all year around, in all weather conditions.</p>
+	  
+	  </div>
+	  
+	  
+	  <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+	     <div class="display-4 text-center"  style="color:#28C93C; font-size: 250%">Machine Learning Algorithms in Autonomous Driving</div>
+	      <img src="/self/ml.jpg" id="ml">
+	      <p  style="color:#28C93C">One of the main tasks of any machine learning algorithm in the self-driving car is a continuous rendering of the surrounding environment and the prediction of possible changes to those surroundings. These tasks are mainly divided into four sub-tasks:</p>
+<ul style="color:#28C93C">
+<li>Object detection</li>
+<li>Object Identification or recognition Object classification</li>
+<li>Object localization and prediction of movement</li>
+</ul>
+<p style="color:#28C93C">Machine learning algorithms can be loosely divided into four categories: regression algorithms, pattern recognition, cluster algorithms and decision matrix algorithms.</p>
+	 <h3 class="lead" style="color:#28C93C">Regression Algorithms</h3>
+	   <p style="color:#28C93C">In ADAS, images (radar or camera) play a very important role in localization and actuation, while the biggest challenge for any algorithm is to develop an image-based model for prediction and feature selection. The type of regression algorithms that can be used for self-driving cars are a Bayesian regression, neural network regression, and decision forest regression, among others. </p>
+	   <h3 class="lead" style="color:#28C93C">Pattern Recognition Algorithms</h3>
+	   <p style="color:#28C93C"> In ADAS, the images obtained through sensors possess all types of environmental data; filtering of the images is required to recognize instances of an object category by ruling out the irrelevant data points. Pattern recognition algorithms are good at ruling out unusual data points. Recognition of patterns in a data set is an important step before classifying the objects. These types of algorithms can also be defined as data reduction algorithms.
+
+These algorithms help in reducing the data set by detecting object edges and fitting line segments (polylines) and circular arcs to the edges. Line segments are aligned to edges up to a corner, then a new line segment is started. Circular arcs are fit to sequences of line segments that approximate an arc. The image features (line segments and circular arcs) are combined in various ways to form the features that are used for recognizing an object.
+
+The support vector machines (SVM) with histograms of oriented gradients (HOG) and principal component analysis (PCA) are the most common recognition algorithms used in ADAS. The Bayes decision rule and K nearest neighbor (KNN) are also used.</p>
+	   <h3 class="lead" style="color:#28C93C">Clustering</h3>
+	   <p style="color:#28C93C">Sometimes the images obtained by the system are not clear and it is difficult to detect and locate objects. It is also possible that the classification algorithms may miss the object and fail to classify and report it to the system. The reason could be low-resolution images, very few data points or discontinuous data. This type of algorithm is good at discovering structure from data points. Like regression, it describes the class of problem and the class of methods. Clustering methods are typically organized by modeling approaches such as centroid-­based and hierarchical. All methods are concerned with using the inherent structures in the data to best organize the data into groups of maximum commonality. The most commonly used type of algorithm is K-means, Multi-class Neural Network. </p>
+	   <h3 class="lead" style="color:#28C93C">Decision Matrix Algorithms</h3>
+	   <p style="color:#28C93C"> This type of algorithm is good at systematically identifying, analyzing, and rating the performance of relationships between sets of values and information. These algorithms are mainly used for decision making. Whether a car needs to take a left turn or it needs to brake depends on the level of confidence the algorithms have on the classification, recognition, and prediction of the next movement of objects. These algorithms are models composed of multiple decision models independently trained and whose predictions are combined in some way to make the overall prediction while reducing the possibility of errors in decision making. The most commonly used algorithms are gradient boosting (GDM) and AdaBoosting.</p>
+	   
+	  </div>
+      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+         <div class="display-4 text-center"  style="color:#28C93C; font-size: 250%">Gallery</div>
+		 <div class="card-deck">
+ 
+  <div class="card">
+   <img src="/self/8.jpeg" class="card-img-top myImg1 logo" onclick="myFunction(this);"> 
+  </div>
+ 
+  
+  <div class="card">
+   <img src="/self/1.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    
+  </div>
+  <div class="card">
+   <img src="/self/2.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    
+  </div>
+  <div class="card">
+   <img src="/self/3.jpg" class="card-img-top myImg1  logo" onclick="myFunction(this);" >
+   
+  </div>
+  <div class="card">
+   <img src="/self/4.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+   
+  </div>
+   <div class="card">
+   <img src="/self/5.jpg" class="card-img-top myImg1  logo" onclick="myFunction(this);" >
+    
+  </div>
+   <div class="card">
+   <img src="/self/6.jpg" class="card-img-top myImg1  logo" onclick="myFunction(this);" >
+   
+  </div>
+   <div class="card">
+   <img src="/self/7.jpg" class="card-img-top myImg1  logo" onclick="myFunction(this);" >
+    
+  </div>
+	     
+	</div>
+  </div>
+</div>
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+		  
+<%- include('../includes/end2.ejs')%>

@@ -1,0 +1,105 @@
+<%- include('../includes/head.ejs')%>
+
+<link rel="stylesheet" href="/css/bugatti.css">
+
+
+	 </head>
+	 <body>
+    <%- include('../includes/navigation.ejs')%>
+<div class="parallax">
+   <div>
+          
+     </div>
+</div>
+<ul class="nav nav-pills" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Gallery</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Models</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Company Details</a>
+  </li>
+</ul>
+<div class="tab-content container" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+   <div class="container-fluid" id="upcoming">
+     <p class="display-3 text-center" >Gallery<p>
+  </div>
+  <div class="container-fluid">
+    <%- include('../includes/galleryImage.ejs',{images: images})%> 
+</div>
+  </div>
+  
+  <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+    <div class="container-fluid" id="upcoming">
+     <p class="display-3 text-center" >Models<p>
+  </div>
+  <div class="container-fluid models">
+	<div id="container-fluid"><h3 class="lead"><b> Veyron</b></h3>
+	<p class="t1 text-left">Development of this vehicle began with the 1999 EB 18/4 "Veyron" concept car, which itself had a chassis based on that of the Bugatti 18/3 Chiron concept car. It was similar in design and appearance to the final Veyron production car. One major difference was the EB 18/4's use of a W18 engine with three banks of six cylinders. The Veyron's chief designer was Hartmut Warkuss, and the exterior was designed by Jozef Kabaň of Volkswagen, rather than Giorgetto Giugiaro of Italdesign, who had handled the three prior Bugatti concepts.
+
+The then – Volkswagen Group chairman Ferdinand Piëch announced the Veyron at the 2000 Geneva Motor Show. It was promised to be the fastest, most powerful and most expensive car in history. Instead of the W18, it would use a VR6/WR8-style W16 engine. First seen in the 1999 Bentley Hunaudières concept car, the W16 would have four turbochargers and produce a quoted (metric) 1001 horsepower (see engine section for details on the power output). Top speed was promised at 407 km/h (253 mph), and the price was announced at €1 million.</p><p><img src="/racing/buggati/cover2.jpg" class="t"></p>
+    </div>
+	</div>
+	<div class="container-fluid models">
+    <h3 class="lead"><b> Chiron</b></h3>
+	<div id="container-fluid"><p class="t1 text-left">At the 2016 Geneva Motor Show, Bugatti premiered the Bugatti Chiron as a successor to the Veyron. The pricing is set at 2.4 million euros. It is powered by a 7,993 cc (8.0 L) quad-turbocharged W16 engine with a peak power output of 1,103 kW (1,500 PS; 1,479 hp) at 6,700 rpm and 1,600 N⋅m (1,180 lb⋅ft) of torque starting from 2,000 to 6,000 rpm. It can accelerate from 0–97 km/h (0–60 mph) in 2.4 seconds according to the manufacturer and has an electronically limited top speed of 420 km/h (261 mph) (233–236 mph (375–380 km/h) without top speed key) for safety reasons, mainly arising from the tyres as the manufacturer concluded that no tyre currently manufactured would be able to handle the stress at the top speed the Chiron is capable of achieving. The base price is €2,400,000 (US$2,700,000 at the August 2016 exchange rate), and buyers were required to place a €200,000 (US$226,000 at the August 2016 exchange rate) deposit. Production is limited to 500 units. Unlike the Veyron, the Chiron is expected to make a profit.</p>
+	</p><p><img src="/racing/buggati/3.jpg" class="t"></p>
+	</div>
+	</div>
+	<div class="container-fluid models">
+	<h3 class="lead"><b> Divo</b></h3>
+	<div id="container-fluid"><p class="t1 text-left">At the exclusive automotive event “The Quail: A Motorsports Gathering“ in Monterey, California, Bugatti premiered its latest model as a world premiere. The Divo takes inspiration from the Bugatti Type 57SC Atlantic along with the Bugatti Vision Gran Turismo concept in terms of design and has track performance as its main focus. The car is 8.0 seconds quicker than the Chiron around the Nardò test track according to the manufacturer and generates 456 kg (1,005 lb) of downforce at top speed, 90 kg (198 lb) more than the Chiron.The top speed is, however, reduced to 236 mph (380 km/h), owing to the extra drag produced by the aerodynamic elements and due to excessive pressure on the tyres resulting from a lower ride height. Power output is unchanged from the Chiron, with 1,103 kW (1,500 PS; 1,479 hp) at 6700 rpm and 1,600 N⋅m (1,180 lb⋅ft) of torque from 2000 to 6000 rpm. The production of the Divo is limited to 40 units and the car will be built alongside the Chiron at the Bugatti factory. The base price for the Divo was €5 million (US$5.8 million), around twice the price of what the standard Chiron cost.</p></div>
+	 <p><img src="/racing/buggati/1.jpg" class="t"></p></div>
+	<div class="container-fluid models">
+	<h3 class="lead"><b> La Voiture Noire</b></h3>
+	<div id="container-fluid"><p class="t1 text-left">The La Voiture Noire (The Black Car) was a special edition car built and sold by Bugatti in 2019. It was presented at the 2019 Geneva Motor Show. The car pays homage to the legendary 'missing' Bugatti Type 57 SC Atlantic of Jean Bugatti. Only 1 of these cars were built and sold for a price of $12.5 million; making it the most expensive new car ever sold. </p>
+	<p><img src="/racing/buggati/7.jpg" class="t"></p>
+	</div>
+    </div>
+ </div>
+ 
+ <div class="tab-pane fade show" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+   <div class="container-fluid" id="upcoming">
+     <p class="display-3 text-center" >Bugatti<p>
+  </div>
+  <div class="container-fluid">
+    <p>Bugatti Automobiles S.A.S. (French pronunciation: ​[bygati]) is a French high-performance luxury automobiles manufacturer and a subsidiary of Volkswagen AG, with its head office and assembly plant in Molsheim, Alsace, France. Volkswagen purchased the Bugatti trademark in June 1998 and incorporated Bugatti Automobiles S.A.S. in 1999.
+
+Bugatti presented several concept cars between 1998 and 2000 before commencing development of its first production model, the Veyron 16.4, delivering the first Veyron to a customer in 2005.</p>
+    </div>
+	<p class="display-4" style="font-size: 250%">History</p>
+	<div id="container-fluid">
+	<p>At the urging of then-chairman Ferdinand Piëch, Volkswagen purchased the rights to produce cars under the Bugatti marque in June 1998. This followed the earlier Volkswagen purchases of the Lamborghini marque (by VW's Audi subsidiary), the Rolls-Royce factory in Crewe, United Kingdom, and the Bentley marque.
+
+On 22 December 2000, Volkswagen officially incorporated Bugatti Automobiles S.A.S., with former VW drivetrain chief Karl-Heinz Neumann as president. The company purchased the 1856 Château Saint Jean, formerly Ettore Bugatti's guest house in Dorlisheim, near Molsheim, and began refurbishing it to serve as the company's headquarters. The original factory was still in the hands of Snecma, who were unwilling to part with it. At the Pebble Beach Concours d'Elegance in August 2000, VW announced that they would instead build a new modern atelier (factory) next to and south of the Château. The atelier was officially inaugurated on 3 September 2005.
+
+Bugatti Automobiles S.A.S. is a wholly owned subsidiary of the Volkswagen AG [5]
+
+After the Veyron's discontinuation in 2014, the new Bugatti model was revealed to be the Chiron in 2016. With an 8-liter W16 engine delivering 1500 horsepower, an electronically limited top speed of 261 miles per hour, and a price of about €2,400,000, the Chiron attempts to vastly surpass the Veyron's performance.</p></div>
+      <div class="container-fluid">
+	   <img src="/racing/buggati/qua.jpg" class="myImg qua"  onclick="myFunction(this);">
+	  <p class="lead text-center" id="qua"> Headquarters: Molsheim, France</p>
+	   </div>
+	</div>
+	 
+	</div>
+	</div>
+	 
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+<%- include('../includes/end2.ejs')%>

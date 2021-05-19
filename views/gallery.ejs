@@ -1,0 +1,26 @@
+<%- include('includes/head.ejs') %>
+<link rel="stylesheet" href="/css/gallery.css">
+</head>
+<body>
+    <%- include('includes/navigation.ejs') %>
+    
+    <div class="jumbotron" id="jumbo">
+        <div class="container-fluid" >
+        <h1 class="display-4" style="color: rgb(119, 116, 116)">Gallery</h1>
+        <p class="lead" style="color: rgb(119, 116, 116)">Create your own gallery by choosing pics from racing car section & enjoy !!</p>
+    </div>
+    <%- include('./includes/galleryImage2.ejs')%>
+
+  
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+<%- include('includes/end2.ejs') %>

@@ -1,0 +1,15 @@
+.login-form{
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.login-btn{
+    margin-top: 2%;
+    position: relative;
+    left: 40%;
+}
+
+#forgot {
+    margin-top: 2rem ;
+    float: right;
+}

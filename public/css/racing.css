@@ -1,0 +1,55 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+   background-color: black;
+    }
+    #cover{
+               background-image: url("/racing/jumbo2.jpg");
+               background-size: cover;
+               background-position: center;
+               
+             }
+   .jumbotron{
+                 height: 300px;
+                 }
+   #text{
+         width: 40%;
+         height: 60%;
+         float: left;
+       
+         
+         }
+   #video{  width: 60%;
+            height: 60%;
+            float: right;
+            position: relative;
+            
+            
+            }
+   .card-deck{   padding-left: 15px;
+                 width: 100%;
+                 height: 10%;
+                 float: left;
+                 
+                       }
+       .card{
+                 min-width:350px;
+                 margin-top: 15px;
+                
+                 margin-right: 10px;
+                 
+                 
+                      }
+       .card-body{  
+                 max-height: 150px;
+                 background-color: #414347;
+                 color: white;
+
+    
+                      }
+       img:hover{
+                    opacity: 0.7;
+                    }
+       
+       
+       

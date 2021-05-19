@@ -1,0 +1,120 @@
+<%- include('../includes/head.ejs')%>
+<link rel="stylesheet" href="/css/pagani.css">
+
+
+	 </head>
+	 <body>
+    <%- include('../includes/navigation.ejs')%>
+<div class="parallax">
+   <div>
+          
+     </div>
+</div>
+<ul class="nav nav-pills" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Gallery</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Models</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Company Details</a>
+  </li>
+</ul>
+<div class="tab-content container" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+   <div class="container-fluid" id="upcoming">
+     <p class="display-3 text-center" style="color: #BABCBE;" >Gallery<p>
+  </div>
+  <div class="container-fluid">
+    <%- include('../includes/galleryImage.ejs',{images: images})%>
+    </div>
+  </div>
+  
+  <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+    <div class="container-fluid" id="upcoming">
+     <p class="display-3 text-center" style="color: #BABCBE;" >Models<p>
+  </div>
+    <div class="card-deck">
+ 
+  <div class="card">
+   <img src="/racing/pagani/mod1.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);">
+    <div class="card-body">
+      <h5 class="card-title">Pagani Zonda Tricolore</h5>
+     
+    </div>
+  </div>
+ 
+  
+  <div class="card">
+   <img src="/racing/pagani/mod3.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">Pagani Zonda R</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/pagani/mod4.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">Pagani Zonda Cinque</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/pagani/mod2.jpg" class="card-img-top myImg1  logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">Pagani Huayra</h5>
+      
+    </div>
+  </div>
+
+      
+
+  
+</div>
+  
+    
+ </div>
+ 
+ <div class="tab-pane fade show" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+   <div class="container-fluid" id="upcoming">
+     <p class="display-3 text-center" style="color: #BABCBE;" >Pagani<p>
+  </div>
+  <div class="container-fluid">
+    <p style="color: #BABCBE;">Pagani Automobili S.p.A. (commonly referred to as Pagani) is an Italian manufacturer of sports cars and carbon fiber components. The company was founded in 1992 by the Argentinian Horacio Pagani and is based in San Cesario sul Panaro, near Modena, Italy.</p></div>
+	<p class="display-4" style="font-size: 250%; color: #BABCBE; ">History</p>
+	<div id="container-fluid">
+	<p style="color: #BABCBE;">Horacio Pagani, who formerly managed Lamborghini's composites department, founded Pagani Composite Research in 1988. This new company worked with Lamborghini on numerous projects, including the restyling of the Lamborghini Countach 25th Anniversary Edition, the Lamborghini LM002, the P140 design concept, and the Diablo. In the late 1980s, Pagani began designing his own car, then referred to as the "C8 Project". Pagani planned to rename the C8 the "Fangio F1" to honour his friend, the five-time Argentinian Formula One champion Juan Manuel Fangio.
+
+In 1991, Pagani established Modena Design to meet the increasing demand for his design, engineering, and prototyping services. In 1992, he began construction of a Fangio F1 prototype, and by 1993, the car was being tested at the Dallara wind tunnel with positive results. In 1994, Mercedes-Benz agreed to supply Pagani with V12 engines. The cost of these cars are at a total of 2.3 million dollars.
+
+The final car was named the Zonda C12, the first of the Zonda line (the Fangio F1 name was dropped out of respect for Fangio, who died in 1995). It was first presented at the 1999 Geneva Motor Show.
+
+In 2005, Pagani announced that it planned to triple its production output within the next three years, and to enter the US market in 2007.
+
+On 30 June 2010, Pagani claimed a new record for production-based cars using the Pagani Zonda R and completing the Nürburgring in 6:47, beating the Ferrari 599XX.</p></div>
+      <div class="container-fluid">
+	   <img src="/racing/pagani/qua.jpg" class="myImg qua"  onclick="myFunction(this);">
+	  <p class="lead text-center" id="qua" style="color: #BABCBE;"> Headquarters: San Cesario sul Panaro, Italy</p>
+	   </div>
+	</div>
+	 
+	</div>
+	</div>
+	 
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+
+<%- include('../includes/end2.ejs')%>

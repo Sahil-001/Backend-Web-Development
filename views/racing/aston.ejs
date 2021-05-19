@@ -1,0 +1,162 @@
+<%- include('../includes/head.ejs')%>
+<link rel="stylesheet" href="/css/aston.css">
+
+
+	 </head>
+	 <body>
+    <%- include('../includes/navigation.ejs')%>   
+<div class="parallax">
+   <div>
+          
+     </div>
+</div>
+<ul class="nav nav-pills" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Gallery</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Models</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Company Details</a>
+  </li>
+</ul>
+<div class="tab-content container" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+   <div class="container-fluid" id="upcoming">
+     <p class="display-3 text-center" style="color: gray" >Gallery<p>
+  </div>
+  <div class="container-fluid">
+    <%- include('../includes/galleryImage.ejs',{images: images})%>
+
+  </div>
+  </div>
+  
+  <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+    <div class="container-fluid" id="upcoming">
+     <p class="display-3 text-center" style="color: gray" >Models<p>
+  </div>
+    <div class="card-deck">
+ 
+  <div class="card">
+   <img src="/racing/aston/mod1.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);">
+    <div class="card-body">
+      <h5 class="card-title">ASTON MARTIN DBX</h5>
+     
+    </div>
+  </div>
+ 
+  
+  <div class="card">
+   <img src="/racing/aston/mod2.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">ASTON MARTIN VANTAGE</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/aston/mod3.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">ASTON MARTIN VANTAGE AMR</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/aston/mod4.jpg" class="card-img-top myImg1  logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">ASTON MARTIN DB11</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/aston/mod5.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">ASTON MARTIN DB11 VOLANTE</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/aston/mod6.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">ASTON MARTIN DB11 AMR</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/aston/mod7.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">ASTON MARTIN DBS SUPERLEGGERA</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/aston/mod8.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">DBS SUPERLEGGERA VOLANTE</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/aston/mod9.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">ASTON MARTIN RAPIDE AMR</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/aston/mod10.jpg" class="card-img-top myImg1 logo " onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">ASTON MARTIN VALKYRIE (Coming Soon)</h5>
+      
+    </div>
+  </div>
+  
+  
+      
+
+  
+</div>
+  
+    
+ </div>
+ 
+ <div class="tab-pane fade show" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+   <div class="container-fluid" id="upcoming">
+     <p class="display-3 text-center" style="color: white" >Aston Martin<p>
+  </div>
+  <div class="container-fluid">
+    <p style="color: white"> Aston Martin Lagonda Global Holdings plc is a British independent manufacturer of luxury sports cars and grand tourers. It was founded in 1913 by Lionel Martin and Robert Bamford. Steered from 1947 by David Brown, it became associated with expensive grand touring cars in the 1950s and 1960s, and with the fictional character James Bond following his use of a DB5 model in the 1964 film Goldfinger. Their sports cars are regarded as a British cultural icon.Aston Martin has held a Royal Warrant as purveyor of motorcars to the Prince of Wales since 1982. It has over 150 car dealerships in over 50 countries on six continents, making them a global automobile brand. The company is traded at the London Stock Exchange and is a constituent of the FTSE 250 Index. In 2003 it received the Queen's Award for Enterprise for outstanding contribution to international trade. The company has gone bankrupt seven times in its history.</p>
+	</div>
+	<p class="display-4" style="font-size: 250%; color:white ">History</p>
+	<div id="container-fluid">
+	<p style=" color: white">Aston Martin was founded in 1913 by Lionel Martin and Robert Bamford. The two had joined forces as Bamford & Martin the previous year to sell cars made by Singer from premises in Callow Street, London where they also serviced GWK and Calthorpe vehicles. Martin raced specials at Aston Hill near Aston Clinton, and the pair decided to make their own vehicles. The first car to be named Aston Martin was created by Martin by fitting a four-cylinder Coventry-Simplex engine to the chassis of a 1908 Isotta Fraschini.
+
+They acquired premises at Henniker Mews in Kensington and produced their first car in March 1915. Production could not start because of the outbreak of the first World War, and Martin joined the Admiralty and Bamford joined the Army Service Corps.<br>
+  After the war they found new premises at Abingdon Road, Kensington and designed a new car. Bamford left in 1920 and Bamford & Martin was revitalised with funding from Count Louis Zborowski. In 1922, Bamford & Martin produced cars to compete in the French Grand Prix, which went on to set world speed and endurance records at Brooklands. Three works Team Cars with 16-valve twin cam engines were built for racing and record-breaking: chassis number 1914, later developed as the Green Pea; chassis number 1915, the Razor Blade record car; and chassis number 1916, later developed as the Halford Special.</p></div>
+      <div class="container-fluid">
+	   <img src="/racing/aston/qua.jpg" class="myImg qua"  onclick="myFunction(this);">
+	  <p class="lead text-center" id="qua" style="color: white"> Headquarters: Gaydon,United Kingdom</p>
+	   </div>
+	</div>
+	 
+	</div>
+	</div>
+	 
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+
+
+		  
+<%- include('../includes/end2.ejs')%>

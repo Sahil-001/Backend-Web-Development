@@ -1,0 +1,58 @@
+<%- include('includes/head.ejs') %>
+
+<link rel="stylesheet" href="/css/home.css">
+	 </head>
+	 <body>
+
+	 <%- include('includes/navigation.ejs') %>
+<div class="parallax">
+   <div>
+     <h1 class="display-4 text-center" style="color: #EAF0EE">CarTechKeeda</h1>
+     <p class="lead text-center" style="color: #EAF0EE">There are no speed limits on the road to success. </p>
+    </div>
+</div>
+<a href="/electric">
+<div class="jumbotron" id="electric" action="electric.html">
+    <div class="container-fluid" >
+    <h1 class="display-4" style="color: white">Electric Cars</h1>
+    <p class="lead" style="color: white">"The time is right for electric cars-in fact, the time is critical."</p>
+    <footer class="blockquote-footer" style="color:white"> <cite title="Source Title">Carlos Ghosn</cite></footer>
+</div>
+</div>
+</a>
+<a href="/racing">
+<div class="jumbotron" id="sports">
+    <div class="container-fluid" >
+    <h1 class="display-4" style="color: white">Sports Cars</h1>
+    <p class="lead" style="color: white">Life is too short TO DRIVE BORING CARS.</p>
+</div>
+</div>
+</a>
+<a href="/self">
+<div class="jumbotron" id="Self">
+    <div class="container-fluid" >
+    <h1 class="display-4" style="color: white">Self Driving Cars</h1>
+    <p class="lead" style="color: white">"Self-Driving cars are the natural extension of active safety and obviously something we should do."</p>
+    <footer class="blockquote-footer" style="color:white"> <cite title="Source Title">Elon Musk</cite></footer>
+</div>
+</div>
+</a>
+<div class="container-fluid" id="detail">
+    <p class="lead">Register your self to get latest cars releases and their Tech. informations.<p> 
+	 <form action="/register" method="post">
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>">  
+        <input type="email" placeholder="abc@example.com" id="in" name = "registerEmail">
+	 <button type="submit" id="but">Submit</button>
+	 </form>	 
+	<div id="contact">
+	  <p> Contact Details </p>
+	  <p> Phone: 7496899505</p> 
+	  <p> Email: kadyansahil702@gmail.com </p>
+    </div>
+	  <p style="text-align: center"> &copy 2020 Sahil-tech7. All rights reserved. </p>
+</div>
+
+
+<%- include('includes/end.ejs')%>
+		  
+          

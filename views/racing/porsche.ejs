@@ -1,0 +1,149 @@
+<%- include('../includes/head.ejs')%>
+<link rel="stylesheet" href="/css/porsche.css">
+
+
+	 </head>
+	 <body>
+    <%- include('../includes/navigation.ejs')%>
+<div class="parallax">
+   <div>
+          
+     </div>
+</div>
+<ul class="nav nav-pills" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Gallery</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Models</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Company Details</a>
+  </li>
+</ul>
+<div class="tab-content container" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+   <div class="container-fluid" id="upcoming">
+     <p class="display-3 text-center" style="color: gray" >Gallery<p>
+  </div>
+  <div class="container-fluid">
+    <%- include('../includes/galleryImage.ejs',{images: images})%>
+     </div>
+  </div>
+  
+  <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+    <div class="container-fluid" id="upcoming">
+     <p class="display-3 text-center" style="color: gray" >Models<p>
+  </div>
+    <div class="card-deck">
+    <div class="card">
+   <img src="/racing/porsche/mod1.png" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">911 Carrera 4S</h5>
+      
+    </div>
+  </div>
+  
+  <div class="card">
+   <img src="/racing/porsche/mod2.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">911 Carrera Cabrlolet</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/porsche/mod3.png" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">911 Carrera S Cabrlolet</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/porsche/mod4.png" class="card-img-top myImg1  logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">911 Carrera 4S Cabrlolet</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/porsche/mod5.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">911 Turbo S Cabriolet</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/porsche/mod6.png" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">Panamera 4</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/porsche/mod8.png" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">Macan (New)</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/porsche/mod9.png" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">Cayenne</h5>
+      
+    </div>
+  </div>
+  
+  
+  
+  
+      
+
+  
+</div>
+  
+    
+ </div>
+ 
+ <div class="tab-pane fade show" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+   <div class="container-fluid" id="upcoming">
+     <p class="display-3 text-center" style="color: white" >Porsche<p>
+  </div>
+  <div class="container-fluid">
+    <p style="color: white">Porsche AG  is a German automobile manufacturer specializing in high-performance sports cars, SUVs and sedans. The headquarters of Porsche AG is in Stuttgart, and is owned by Volkswagen AG, a controlling stake of which is owned by Porsche Automobil Holding SE. Porsche's current lineup includes the 718 Boxster/Cayman, 911, Panamera, Macan, Cayenne and Taycan.
+	</p></div>
+	<p class="display-4" style="font-size: 250%; color:white ">History</p>
+	<div id="container-fluid">
+	<p style=" color: white">Ferdinand Porsche founded the company called "Dr. Ing. h. c. F. Porsche GmbH" in 1931, with main offices at Kronenstraße 24 in the centre of Stuttgart. Initially, the company offered motor vehicle development work and consulting, but did not build any cars under its own name. One of the first assignments the new company received was from the German government to design a car for the people, that is a "Volkswagen".[4] This resulted in the Volkswagen Beetle, one of the most successful car designs of all time. The Porsche 64 was developed in 1939 using many components from the Beetle.
+
+
+Porsche's tank prototype, the "Porsche Tiger", that lost to Henschel & Son's Tiger I.
+
+Panzerjäger Elefant, after the loss of the contract to the Tiger I Porsche recycled his design into a tank destroyer.
+During World War II, Volkswagen production turned to the military version of the Volkswagen Beetle, the Kübelwagen, 52,000 produced, and Schwimmwagen, 15,584 produced. Porsche produced several designs for heavy tanks during the war, losing out to Henschel & Son in both contracts that ultimately led to the Tiger I and the Tiger II. However, not all this work was wasted, as the chassis Porsche designed for the Tiger I was used as the base for the Elefant tank destroyer. Porsche also developed the Maus super-heavy tank in the closing stages of the war, producing two prototypes. Ferdinand Porsche's biographer, Fabian Müller, wrote that Porsche had thousands of people forcibly brought to work at their factories during the war. The workers wore the letter "P" on their clothing at all times. It stood not for "Porsche," but for "Poland."</p></div>
+      <div class="container-fluid">
+	   <img src="/racing/porsche/qua.jpg" class="myImg qua"  onclick="myFunction(this);">
+	  <p class="lead text-center" id="qua" style="color: white"> Headquarters: Stuttgart, Germany</p>
+	   </div>
+	</div>
+	 
+	</div>
+	</div>
+	 
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+
+
+<%- include('../includes/end2.ejs')%>

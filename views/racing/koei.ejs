@@ -1,0 +1,167 @@
+<%- include('../includes/head.ejs')%>
+<link rel="stylesheet" href="/css/koei.css">
+
+
+
+	 </head>
+	 <body>
+    <%- include('../includes/navigation.ejs')%>
+<div class="parallax">
+   <div>
+          
+     </div>
+</div>
+<ul class="nav nav-pills" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Gallery</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Models</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Company Details</a>
+  </li>
+</ul>
+<div class="tab-content container" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+   <div class="container-fluid" id="upcoming">
+     <p class="display-3 text-center"  >Gallery<p>
+  </div>
+  <div class="container-fluid">
+    <%- include('../includes/galleryImage.ejs',{images: images})%>
+    
+ </div>
+  </div>
+  
+  <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+    <div class="container-fluid" id="upcoming">
+     <p class="display-3 text-center" >Models<p>
+  </div>
+    <div class="card-deck">
+ 
+  <div class="card">
+   <img src="/racing/koei/21.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);">
+    <div class="card-body">
+      <h5 class="card-title">koenigsegg CC8S</h5>
+     
+    </div>
+  </div>
+ 
+  <div class="card">
+    <img src="/racing/koei/22.jpg" class="card-img-top myImg1 logo " onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">koenigsegg CCR</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/koei/23.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">koenigsegg CCX</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/koei/24.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">koenigsegg CCXR </h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/koei/25.jpg" class="card-img-top myImg1  logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">koenigsegg Trevita</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/koei/26.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">koenigsegg Agera</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/koei/27.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">koenigsegg Agera R</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/koei/28.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">koenigsegg Agera S </h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/koei/29.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">koenigsegg The One</h5>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/racing/koei/30.jpg" class="card-img-top myImg1 logo" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">koenigsegg Regera</h5>
+      
+    </div>
+  </div>
+ 
+  
+      
+
+  
+</div>
+  
+    
+ </div>
+ 
+ <div class="tab-pane fade show" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+   <div class="container-fluid" id="upcoming">
+     <p class="display-3 text-center"  >Koenigsegg<p>
+  </div>
+  <div class="container-fluid">
+    <p >Koenigsegg Automotive AB  is a manufacturer of high-performance sports cars, based in Ängelholm, Skåne County, Sweden.The company was founded in 1994 in Sweden by Christian von Koenigsegg, with the intention of producing a "world-class" sports car. Many years of development and testing led to the CC8S, the company's first street-legal production car which was introduced in 2002.
+
+In 2006, Koenigsegg began production of the CCX, which uses an engine created in-house especially for the car. The goal was to develop a car homologated for use worldwide, particularly the United States whose strict regulations didn't allow the import of earlier Koenigsegg models.
+
+In March 2009, the CCXR was listed by Forbes as one of "the world's most beautiful cars".
+
+In December 2010, the Agera won the BBC Top Gear Hypercar of the Year Award.
+
+Apart from developing, manufacturing and selling the Koenigsegg line of sports cars, Koenigsegg is also involved in "green technology" development programmes beginning with the CCXR ("Flower Power") flex-fuel sports car and continuing through the present with the Jesko. Koenigsegg is also active in development programs of plug-in electric cars' systems and next-generation reciprocating engine technologies. Koenigsegg has also developed a camless piston engine which found its first application in the Regera, which was introduced in 2015.
+
+Koenigsegg develops and produces most of the main systems, subsystems and components needed for their cars in-house instead of relying on subcontractors.
+
+In January 2019, Koenigsegg sold a 20% stake in the company to Swedish electric car manufacturer, National Electric Vehicle Sweden (NEVS), for US$171 million. </p></div>
+	<p class="display-4" style="font-size: 250%; ">History</p>
+	<div id="container-fluid">
+	<p >The initial design of the CC was penned down by Christian von Koenigsegg. Industrial designer David Crafoord realised the sketches as a 1:5 scale model. This model was later scaled up in order to create the base plug for the initial Koenigsegg prototype that was finished in 1996. During the next years, the prototype went through extensive testing and several new prototypes were built. The prototypes initially used an Audi V8 engine but after the engine supply contract fell through, the next candidate was the Flat-12 race engine developed by Motori Moderni for the Scuderia Coloni Formula one team, in which this engine was raced under the Subaru badge in the 1990 season. These Subaru 1235 engines were purchased and modified for use in the CC; this deal failed when the founder of Motori Moderni died, sending the company into bankruptcy. Eventually Koenigsegg developed its own engine based on the Ford Modular architecture which was used in its early sports cars. Later on, Koenigsegg developed their own engines from scratch, including control systems and transmissions, which is very unusual for a small size sports car producer.</p></div>
+      <div class="container-fluid">
+	   <img src="/racing/koei/qua.jpg" class="myImg qua"  onclick="myFunction(this);">
+	  <p class="lead text-center" id="qua" > Headquarters: Sweden</p>
+	   </div>
+	</div>
+	 
+	</div>
+	</div>
+	 
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+<%- include('../includes/end2.ejs')%>

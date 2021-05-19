@@ -1,0 +1,240 @@
+
+  <%- include('../includes/head.ejs')%>
+  <link rel="stylesheet" href="/css/electric.css">
+ 
+
+	 </head>
+	 <body>
+    <%- include('../includes/navigation.ejs')%>      
+<div id=""car>
+ <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/land.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" id="tes">
+      <img src="/tes.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/fb.jpg" class="d-block w-100" alt="...">
+    </div>
+	
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+<ul class="nav nav-pills flex-column" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Upcoming Electric Cars</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Tech Background</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Companies</a>
+  </li>
+</ul>
+<div class="tab-content container" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+  <div class="container" id="upcoming">
+     <p class="display-4" style="font-size: 250%">Upcoming Electric Cars In India<p>
+  </div>
+ <div class="card-deck">
+  <div class="card">
+    <img src="/electric/1.jpg" class="card-img-top myImg" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">Audi e-tron</h5>
+      <p class="card-text text"><b>&#8377 1.5 Cr*</b><span style="font-size: 70%"> Expected Price</span><br> <span style="color: grey">Expected Launch May 25,2020</span></p>
+      
+    </div>
+  </div>
+  <div class="card">
+    <img src="/electric/2.jpg" class="card-img-top myImg" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">MG ERX5</h5>
+      <p class="card-text text"><b>&#8377 25.0 Lakh*</b><span style="font-size: 70%"> Expected Price</span><br> <span style="color: grey">Expected Launch jun 06,2020</span></p>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/electric/3.jpg" class="card-img-top myImg" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">Tata Altroz EV</h5>
+      <p class="card-text text"><b>&#8377 14.0 Lakh*</b><span style="font-size: 70%"> Expected Price</span><br> <span style="color: grey">Expected Launch jun 15,2020</span></p>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/electric/4.jpg" class="card-img-top myImg" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">Mercedes-Benz EQC</h5>
+      <p class="card-text text"><b>&#8377 1.0 Cr*</b><span style="font-size: 70%"> Expected Price</span><br> <span style="color: grey">Expected Launch jul 13,2020</span></p>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/electric/5.jpg" class="card-img-top myImg" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">Jaguar I-Pace</h5>
+      <p class="card-text text"><b>&#8377 58.0 Lakh*</b><span style="font-size: 70%"> Expected Price</span><br> <span style="color: grey">Expected Launch jul 15,2020</span></p>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/electric/6.jpg" class="card-img-top myImg" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">Mahindra eKUV100</h5>
+      <p class="card-text text"><b>&#8377 8.25 Lakh*</b><span style="font-size: 70%"> Expected Price</span><br> <span style="color: grey">Expected Launch jun 16,2020</span></p>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/electric/7.jpg" class="card-img-top myImg" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">Tata EVision Electric</h5>
+      <p class="card-text text"><b>&#8377 25 Lakh*</b><span style="font-size: 70%"> Expected Price</span><br> <span style="color: grey">Expected Launch Dec 01,2020</span></p>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/electric/8.jpg" class="card-img-top myImg" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">Porsche Taycan</h5>
+      <p class="card-text text"><b>&#8377 1.08 Cr*</b><span style="font-size: 70%"> Expected Price</span><br> <span style="color: grey">Expected Launch Nov 15,2020</span></p>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/electric/9.jpg" class="card-img-top myImg" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">Tesla Model S</h5>
+      <p class="card-text text"><b>&#8377 1.5 Cr*</b><span style="font-size: 70%"> Expected Price</span><br> <span style="color: grey">Expected Launch Jun 14, 2021</span></p>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/electric/10.jpg" class="card-img-top myImg" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">Nissan Leaf</h5>
+      <p class="card-text text"><b>&#8377 30.0 Lakh*</b><span style="font-size: 70%"> Expected Price</span><br> <span style="color: grey">Expected Launch Feb 15, 2021</span></p>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/electric/11.jpg" class="card-img-top myImg" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">BMW i3</h5>
+      <p class="card-text text"><b>&#8377 1.0 Cr*</b><span style="font-size: 70%"> Expected Price</span><br> <span style="color: grey">Expected Launch jun 10, 2021</span></p>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/electric/12.jpg" class="card-img-top myImg" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">Tesla Model 3</h5>
+      <p class="card-text text"><b>&#8377 70.0 Lakh*</b><span style="font-size: 70%"> Expected Price</span><br> <span style="color: grey">Expected Launch jun 15, 2021</span></p>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/electric/16.jpg" class="card-img-top myImg" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">Nissan Note Power</h5>
+      <p class="card-text text"><b>&#8377 20.0 Lakh*</b><span style="font-size: 70%"> Expected Price</span><br> <span style="color: grey">Expected Launch aug 15, 2021</span></p>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/electric/14.jpg" class="card-img-top myImg" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">Tesla Model X</h5>
+      <p class="card-text text"><b>&#8377 2.0 Cr*</b><span style="font-size: 70%"> Expected Price</span><br> <span style="color: grey">Expected Launch jan 10,2022</span></p>
+      
+    </div>
+  </div>
+  <div class="card">
+   <img src="/electric/15.jpg" class="card-img-top myImg" onclick="myFunction(this);" >
+    <div class="card-body">
+      <h5 class="card-title">Tata Sierra</h5>
+      <p class="card-text text"><b>&#8377 14.0 Lakh*</b><span style="font-size: 70%"> Expected Price</span><br> <span style="color: grey">Expected Launch jan 15,2022</span></p>
+      
+    </div>
+  </div>
+  
+</div>
+  </div>
+  
+  <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+   <div class="container-fluid" id="upcoming">
+     <p class="display-4" style="font-size: 250%">Tech Behind Electric Cars<p>
+  </div>
+  <div class="container-fluid">
+  An electric car is an automobile that is propelled by one or more electric motors, using energy stored in rechargeable batteries. The first practical electric cars were produced in the 1880s. Electric cars were popular in the late 19th century and early 20th century, until advances in internal combustion engines, electric starters in particular, and mass production of cheaper petrol (gasoline) and diesel vehicles led to a decline in the use of electric drive vehicles.
+  
+  </div>
+  <div class="container-fluid">
+  <iframe width="100%" height="50%" src="https://www.youtube.com/embed/3SAxXUIre28" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
+   <div class="container-fluid" id="terminology">
+     <p class="display-4" style="font-size: 175%">Terminology<p>
+	 <p>Electric cars are a variety of electric vehicle (EV). The term "electric vehicle" refers to any vehicle that uses electric motors for propulsion, while "electric car" generally refers to highway-capable automobiles powered by electricity. Low-speed electric vehicles, classified as NEVs in the United States, and as electric motorised quadricycles in Europe, are plug-in electric-powered microcars or city cars with limitations in terms of weight, power and maximum speed that are allowed to travel on public roads and city streets up to a certain posted speed limit, which varies by country.
+
+While an electric car's power source is not explicitly an on-board battery, electric cars with motors powered by other energy sources are typically referred to by a different name. An electric car carrying solar panels to power it is a solar car, and an electric car powered by a gasoline generator is a form of hybrid car. Thus, an electric car that derives its power from an on-board battery pack is a form of battery electric vehicle (BEV). Most often, the term "electric car" is used to refer to battery electric vehicles, but may also refer to plug-in hybrid electric vehicles (PHEV).</p>
+  </div>
+  <div class="container-fluid" id="Modern">
+     <p class="display-4" style="font-size: 175%">Modern Electric Cars<p>
+     <p>The emergence of metal-oxide-semiconductor (MOS) technology led to the development of modern electric road vehicles. The MOSFET (MOS field-effect transistor, or MOS transistor), invented by Mohamed M. Atalla and Dawon Kahng at Bell Labs in 1959, led to the development of the power MOSFET by Hitachi in 1969, and the single-chip microprocessor by Federico Faggin, Marcian Hoff, Masatoshi Shima and Stanley Mazor at Intel in 1971. The power MOSFET and the microcontroller, a type of single-chip microprocessor, led to significant advances in electric automobile technology. MOSFET power converters allowed operation at much higher switching frequencies, made it easier to drive, reduced power losses, and significantly reduced prices, while single-chip microcontrollers could manage all aspects of the drive control and had the capacity for battery management. Another important technology that enabled modern highway-capable electric cars is the lithium-ion battery, invented by John Goodenough, Rachid Yazami and Akira Yoshino in the 1980s, which was responsible for the development of electric cars capable of long-distance travel.
+     <img src="/electric/Microchip.jpg" id="chip">
+In the early 1990s, CARB began a push for more fuel-efficient, lower-emissions vehicles, with the ultimate goal being a move to zero-emissions vehicles such as electric vehicles. In response, automakers developed electric models, including the Chrysler TEVan, Ford Ranger EV pickup truck, GM EV1, and S10 EV pickup, Honda EV Plus hatchback, Nissan Altra EV miniwagon, and Toyota RAV4 EV. Both US Electricar and Solectria produced 3-phase AC Geo-bodied electric cars with the support of GM, Hughes, and Delco. These early cars were eventually withdrawn from the U.S. market.
+
+California electric automaker Tesla Motors began development in 2004 on what would become the Tesla Roadster (2008), which was first delivered to customers in 2008. The Roadster was the first highway legal serial production all-electric car to use lithium-ion battery cells, and the first production all-electric car to travel more than 320 km (200 miles) per charge.
+
+Tesla global sales passed 250,000 units in September 2017. The Renault–Nissan–Mitsubishi Alliance achieved the milestone of 500,000 electric vehicles sold in October 2017. Tesla sold its 200,000th Model S in the fourth quarter of 2017.Global Leaf sales passed 300,000 units in January 2018, keeping its record as the world's top selling plug-in electric car ever. Tesla delivered its 100,000th Model 3 in October 2018.
+
+Many countries have set goals to ban the sales of gasoline- and diesel-powered vehicles in the future, notably: Norway by 2025, Denmark by 2030, China by 2030, India by 2030, Germany by 2030, France by 2040, and Britain by 2040 or 2050. Similarly, more cities around the world have begun transitioning public transportation towards electric vehicles than previously was the case.
+
+As of June 2019, the Nissan Leaf listed as the best-selling highway-capable electric car ever with more than 400,000 units sold worldwide, followed by the Tesla Model S with 263,500 units as of December 2018. which have EPA-rated ranges reaching up to 243 km (151 miles) and 600 km (370 miles) respectively. In July 2019, US-based Motor Trend magazine awarded the fully electric Tesla Model S as the "ultimate car of the year".
+
+As of March 2020, the Tesla Model 3 is the world's all-time best-selling electric car, with more than 500,000 units delivered. Nissan reported Leaf global sales totaling 450,000 units in January 2020. </p>
+  </div>
+ </div>
+ 
+ <div class="tab-pane fade show" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+    <div class="container" id="company">
+     <p class="display-4" style="font-size: 250% ">Top Manufacturers Of Electric Cars</p>
+  </div>
+  <div class="container-fluid">
+  <img src="/electric/bmw.png" class="rounded float-left" alt="...">
+  <img src="/electric/tesla.png" class="rounded float-left" alt="...">
+  <img src="/electric/ford.png" class="rounded float-left" alt="...">
+  <img src="/electric/volks.png" class="rounded float-left" alt="...">
+  <img src="/electric/chev.png" class="rounded float-left" alt="...">
+  <img src="/electric/kia.png" class="rounded float-left" alt="...">
+  <img src="/electric/nissan.png" class="rounded float-left" alt="...">
+  
+  </div>
+  </div>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+
+<%- include('../includes/end2.ejs')%>
